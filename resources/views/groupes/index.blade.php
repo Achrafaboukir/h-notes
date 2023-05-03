@@ -65,7 +65,7 @@
                                         </td>
                                     </tr>
                                 @endforeach
-
+                                    
                             </tbody>
                             @if (session('message'))
                                 <span>{{ session('message') }}</span>
