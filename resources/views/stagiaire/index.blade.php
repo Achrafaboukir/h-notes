@@ -2,10 +2,10 @@
     <x-slot name="header">
         <div class="flex justify-between items-center">
             <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">
-                {{ __('Stagiaiares') }}
+                {{ __('Stagiaires') }}
             </h2>
             <div class=" text-right">
-                <a href="stagiaire/create" class="px-3 py-2 bg-gradient-to-r from-indigo-500 to-pink-500 rounded-lg text-white font-medium "> + Créer stagiaire</a>
+                <a href="/stagiaire/create" class="px-3 py-2 bg-gradient-to-r from-indigo-500 to-pink-500 rounded-lg text-white font-medium "> + Créer stagiaire</a>
             </div>
         </div>
     </x-slot>
