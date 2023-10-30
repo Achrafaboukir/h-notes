@@ -156,7 +156,7 @@ class StagieresController extends Controller
     {
         //
         $stagiere= Stagieres::findOrFail($id);
-
+ 
         $stagiere->delete();
 
         return redirect()->route('stagiaire.index')->with('success', 'Stagiere deleted successfully!');
